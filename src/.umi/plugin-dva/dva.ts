@@ -3,8 +3,10 @@ import { Component } from 'react';
 import { ApplyPluginsType } from 'umi';
 import dva from 'dva';
 // @ts-ignore
-import createLoading from '/Users/apple/Desktop/github/zhiku.tec/h5-visible-tool/node_modules/dva-loading/dist/index.esm.js';
+import createLoading from '/Users/apple/Desktop/github/h5-visible-tool/node_modules/dva-loading/dist/index.esm.js';
 import { plugin, history } from '../core/umiExports';
+import ModelEditorModal0 from '/Users/apple/Desktop/github/h5-visible-tool/src/pages/editor/models/editorModal.js';
+import ModelEditorPcModel1 from '/Users/apple/Desktop/github/h5-visible-tool/src/pages/editor/models/editorPcModel.ts';
 
 let app:any = null;
 
@@ -24,11 +26,12 @@ export function _onCreate(options = {}) {
   });
   
   app.use(createLoading());
-  app.use(require('/Users/apple/Desktop/github/zhiku.tec/h5-visible-tool/node_modules/dva-immer/dist/index.js')());
+  app.use(require('/Users/apple/Desktop/github/h5-visible-tool/node_modules/dva-immer/dist/index.js')());
   (runtimeDva.plugins || []).forEach((plugin:any) => {
     app.use(plugin);
   });
-  app.model({ namespace: 'editorModal', ...(require('/Users/apple/Desktop/github/zhiku.tec/h5-visible-tool/src/pages/editor/models/editorModal.js').default) });
+  app.model({ namespace: 'editorModal', ...ModelEditorModal0 });
+app.model({ namespace: 'editorPcModel', ...ModelEditorPcModel1 });
   return app;
 }
 

@@ -65,7 +65,7 @@ export interface IConfigFromPlugins {
     mode?: "emit" | "verify";
   };
   cssnano?: {};
-  copy?: string[];
+  copy?: any[];
   define?: {};
   devScripts?: {};
   /**
@@ -147,9 +147,13 @@ export interface IConfigFromPlugins {
   runtimePublicPath?: boolean;
   ssr?: {
     /**
-     * remove window.g_initialProps in html, to force execing Page getInitialProps  functions
+     * force execing Page getInitialProps functions
      */
     forceInitial?: boolean;
+    /**
+     * remove window.g_initialProps in html
+     */
+    removeWindowInitialProps?: boolean;
     /**
      * disable serve-side render in umi dev mode.
      */
@@ -182,10 +186,11 @@ export interface IConfigFromPlugins {
     config?: {};
   };
   dva?: {
-    immer?: boolean;
-    hmr?: boolean;
-    skipModelValidate?: boolean;
+    disableModelsReExport?: boolean;
     extraModels?: string[];
+    hmr?: boolean;
+    immer?: boolean;
+    skipModelValidate?: boolean;
   };
   locale?: {
     default?: string;
@@ -199,6 +204,7 @@ export interface IConfigFromPlugins {
   request?: {
     dataField?: "";
   };
+  esbuild?: {};
   sass?: {
     implementation?: any;
     sassOptions?: {};

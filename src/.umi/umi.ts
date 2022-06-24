@@ -4,8 +4,8 @@ import '@@/core/devScripts';
 import { plugin } from './core/plugin';
 import './core/pluginRegister';
 import { createHistory } from './core/history';
-import { ApplyPluginsType } from '/Users/apple/Desktop/github/zhiku.tec/h5-visible-tool/node_modules/@umijs/runtime';
-import { renderClient } from '/Users/apple/Desktop/github/zhiku.tec/h5-visible-tool/node_modules/@umijs/renderer-react/dist/index.js';
+import { ApplyPluginsType } from '/Users/apple/Desktop/github/h5-visible-tool/node_modules/@umijs/runtime';
+import { renderClient } from '/Users/apple/Desktop/github/h5-visible-tool/node_modules/@umijs/renderer-react/dist/index.js';
 import { getRoutes } from './core/routes';
 
 
@@ -25,7 +25,7 @@ const getClientRender = (args: { hot?: boolean; routes?: any[] } = {}) => plugin
         isServer: process.env.__IS_SERVER,
         dynamicImport: true,
         rootElement: 'root',
-        defaultTitle: `趣谈前端-h5-visible-tool`,
+        defaultTitle: `趣谈前端-h5-dooring`,
       },
     });
     return renderClient(opts);
@@ -38,7 +38,7 @@ export default clientRender();
 
 
     window.g_umi = {
-      version: '3.2.16',
+      version: '3.2.23',
     };
   
 

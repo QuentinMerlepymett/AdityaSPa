@@ -6,7 +6,8 @@ import { EffectsCommandMap, SubscriptionAPI } from 'dva';
 import { match } from 'react-router-dom';
 import { Location, LocationState, History } from 'history';
 
-export * from '/Users/apple/Desktop/github/zhiku.tec/h5-visible-tool/src/pages/editor/models/editorModal';
+export * from '/Users/apple/Desktop/github/h5-visible-tool/src/pages/editor/models/editorModal';
+export * from '/Users/apple/Desktop/github/h5-visible-tool/src/pages/editor/models/editorPcModel';
 
 export interface Action<T = any> {
   type: T
