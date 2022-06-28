@@ -1,7 +1,7 @@
 > 让H5制作像搭积木一样简单!
 
 <p align="center">
-    <img src="http://cdn.dooring.cn/dr/logo.ff7fc6bb.png" width="260" alt="H5编辑器,H5制作神器,H5 editor,lowcode">
+    <img src="./logo.ff7fc6bb.png" width="260" alt="H5编辑器,H5制作神器,H5 editor,lowcode">
 </p>
 <h1 align="center">Welcome to H5-Dooring 👋</h1>
 <p>
@@ -199,4 +199,4 @@ cnpm run dev
 ## 技术反馈和交流群 | Technical feedback and communication
 微信：beautifulFront
 
-<img src="http://cdn.dooring.cn/dr/qtqd_code.png" width="180px" />
+<img src="./src/assets/qrcode.png" width="180px" />
