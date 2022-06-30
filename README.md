@@ -26,7 +26,7 @@
 
 ### [视频教程 | Video tutorial](https://www.zhihu.com/zvideo/1326300284608417792)
 
-![](http://cdn.dooring.cn/dr/2.png)
+![](./dooring1.9.png)
 
 相关产品: 
 
@@ -194,9 +194,9 @@ cnpm run dev
 ## 赞助 | Sponsored
 开源不易, 有了您的赞助, 我们会做的更好~
 
-<img src="http://cdn.dooring.cn/dr/WechatIMG2.jpeg" width="180px" />
+<img src="./WechatIMG2.jpeg" width="180px" />
 
 ## 技术反馈和交流群 | Technical feedback and communication
 微信：beautifulFront
 
-<img src="./src/assets/qrcode.png" width="180px" />
+<img src="./qtqd_code.png" width="180px" />
