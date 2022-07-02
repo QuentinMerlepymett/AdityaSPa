@@ -26,12 +26,11 @@
 
 ### [视频教程 | Video tutorial](https://www.zhihu.com/zvideo/1326300284608417792)
 
-![](./dooring1.9.png)
+![](./dooring1.9.png) 
 
-相关产品: 
-
-- [V6.Dooring | 大屏可视化编辑器](https://github.com/MrXujiang/v6.dooring.public)
-- [dooring-electron-lowcode | dooring桌面端软件](https://github.com/MrXujiang/dooring-electron-lowcode)
+| 主页🏠(home)      | 演示✨(demo) |  文档📦(doc)   |  教程(tutorial) |  wiki |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| [website](http://h5.dooring.cn) | [Demo](http://h5.dooring.cn/h5_plus) | [Document](http://h5.dooring.cn/doc) | [视频&Video](https://www.zhihu.com/zvideo/1406394315950653440) | [wiki](https://github.com/MrXujiang/h5-Dooring/wiki)
 
 ## Author
 
