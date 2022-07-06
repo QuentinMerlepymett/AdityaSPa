@@ -1,8 +1,5 @@
 > 让H5制作像搭积木一样简单!
 
-<p align="center">
-    <img src="http://cdn.dooring.cn/dr/logo.ff7fc6bb.png" width="260" alt="H5编辑器,H5制作神器,H5 editor,lowcode">
-</p>
 <h1 align="center">欢迎使用 H5-Dooring 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.2-blue.svg?cacheSeconds=2592000" />
@@ -15,8 +12,6 @@
 </p>
 
 > H5-Dooring是一款功能强大，专业可靠的H5可视化页面配置解决方案，致力于提供一套简单方便、专业可靠、无限可能的H5落地页最佳实践。技术栈以react和typescript为主， 后台采用nodejs开发, 正在探索h5-lowcode解决方案。
-
-<img src="http://cdn.dooring.cn/dr/123.png" alt="H5-Dooring编辑器预览图" width="100%" />
 
 | 主页🏠     | 演示✨ |  文档📦  |  教程 |  更多 |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
@@ -185,9 +180,7 @@ cnpm run dev
 ## 赞助
 开源不易, 有了您的赞助, 我们会做的更好~
 
-<img src="http://cdn.dooring.cn/dr/WechatIMG2.jpeg" width="180px" />
+个人微信: lowcode-dooring
 
 ## 技术反馈和交流群
 微信：beautifulFront
-
-<img src="http://cdn.dooring.cn/dr/qtqd_code.png" width="180px" />
