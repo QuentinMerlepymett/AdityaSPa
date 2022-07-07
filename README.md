@@ -28,6 +28,7 @@
 
 * Website: http://h5.dooring.cn
 * Github: [@MrXujiang](https://github.com/MrXujiang)
+* [Dooring可视化低代码技术最新分享](https://gitee.com/lowcode-china/h5_-dooring/issues/I5F7IN)
 
 ## 🤝 贡献和支持
 
